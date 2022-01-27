@@ -45,6 +45,10 @@ The dataset was taken from the competition hosted by <a href = "https://www.kagg
 - Malignant: A cancerous growth that can spread very quickly and invade nearby tissues
 - Benign: A non-cancerous growth that usually grows very slowly and does not spread to other areas
 
+### Click to view 👇:
+
+[![forthebadge](images/badges/solution-exploratory-data-analysis.svg)](https://github.com/vipul-shinde/melanoma-skin-cancer-classification/blob/main/notebooks/01-eda-and-tabular-data-model.ipynb)
+
 ## 🧠 Model Building <a name="neural-network-model">
 
 Here, the bottom layers of pre-trained Xception model were used and the top layers were fine-tuned for our particular task to classify skin cancer images as malignant or not. The architecture of xception model is as follows:
@@ -62,10 +66,10 @@ Since the dataset is highly imbalanced, accuracy wouldn't be a good metric to ju
 </p>
 
 <p align="center">
-    <img src="images\performance-results.png" alt="performance-result" width="500px">
+    <img src="images\performance-results.png" alt="performance-result" width="600px">
 </p>
 
-## 🎯 Model Evaluation <a name="model-evaluation">
+## 🏅 Model Evaluation <a name="model-evaluation">
 
 We evaluated our model on the test dataset and we were able to achieve an AUC of 0.8459. Here is the curve:
 
@@ -74,7 +78,11 @@ We evaluated our model on the test dataset and we were able to achieve an AUC of
 </p>
 
 <p align="center">
-    <img src="images\test-data-evaluation.png" alt="test-data-evaluation" width="500px">
+    <img src="images\test-data-evaluation.png" alt="test-data-evaluation" width="600px">
 </p>
+
+### Click to view 👇:
+
+[![forthebadge](images/badges/solution-transfer-learning-using-xception-model.svg)](https://github.com/vipul-shinde/melanoma-skin-cancer-classification/blob/main/notebooks/02-transfer-learning-using-xception.ipynb)
 
 # Thank you!
