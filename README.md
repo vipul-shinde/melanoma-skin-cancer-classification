@@ -39,7 +39,7 @@ Currently, dermatologists evaluate every one of a patient's moles to identify ou
 The dataset was taken from the competition hosted by <a href = "https://www.kaggle.com/c/siim-isic-melanoma-classification/data">SIIM-ISIC</a> on Kaggle.
 
 <p align="center">
-    <img src="images\data-overview.png" alt="data-overview" width="500px">
+    <img src="images\data-overview.png" alt="data-overview" width="600px">
 </p>
 
 - Malignant: A cancerous growth that can spread very quickly and invade nearby tissues
