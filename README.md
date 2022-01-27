@@ -39,7 +39,7 @@ Currently, dermatologists evaluate every one of a patient's moles to identify ou
 The dataset was taken from the competition hosted by <a href = "https://www.kaggle.com/c/siim-isic-melanoma-classification/data">SIIM-ISIC</a> on Kaggle.
 
 <p align="center">
-    <img src="images\data-overview.png" alt="data-overview" width="600px">
+    <img src="images\data-overview.png" alt="data-overview" width="500px">
 </p>
 
 - Malignant: A cancerous growth that can spread very quickly and invade nearby tissues
@@ -50,7 +50,7 @@ The dataset was taken from the competition hosted by <a href = "https://www.kagg
 Here, the bottom layers of pre-trained Xception model were used and the top layers were fine-tuned for our particular task to classify skin cancer images as malignant or not. The architecture of xception model is as follows:
 
 <p align="center">
-    <img src="images\xception-architecture.png" alt="xception-architecture" width="500px">
+    <img src="images\xception-architecture.png" alt="xception-architecture">
 </p>
 
 ## Model Performance <a name="model-performance>
