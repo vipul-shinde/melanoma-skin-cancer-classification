@@ -38,7 +38,7 @@ Currently, dermatologists evaluate every one of a patient's moles to identify ou
 
 The dataset was taken from the competition hosted by <a href = "https://www.kaggle.com/c/siim-isic-melanoma-classification/data">SIIM-ISIC</a> on Kaggle.
 
-<p align="center">
+<p align="left">
     <img src="images\data-overview.png" alt="data-overview" width="500px">
 </p>
 
@@ -58,10 +58,23 @@ Here, the bottom layers of pre-trained Xception model were used and the top laye
 Since the dataset is highly imbalanced, accuracy wouldn't be a good metric to judge the model performnace hence we have used the AOC as a performance metric along with BinaryCrossentropy as the loss function. Here is the model's performance.
 
 <p align="left">
-    <img src="images\live-loss-plot.png" alt="live-loss-plot">
+    <img src="images\live-loss-plot.png" alt="live-loss-plot" width="500px">
 </p>
 
 <p align="left">
-    <img src="images\performance-results.png" alt="performance-result">
+    <img src="images\performance-results.png" alt="performance-result" width="500px">
 </p>
 
+## 🎯 Model Evaluation <a name="model-evaluation">
+
+We evaluated our model on the test dataset and we were able to achieve an AUC of 0.8459. Here is the curve:
+
+<p align="left">
+    <img src="images\auc-curve.png" alt="auc-curve" width="500px">
+</p>
+
+<p align="left">
+    <img src="images\test-data-evaluation.png" alt="test-data-evaluation" width="500px">
+</p>
+
+# Thank you!
