@@ -26,7 +26,7 @@
 - [🎯 Model Performance](#model-performance)
 - [🏅 Model Evaluation](#model-evaluation)
 
-## About <a name = "about"></a>
+## 🧐 About <a name = "about"></a>
 
 Melanoma is a type of skin cancer that occurs when pigment-producing cells (melanocytes) mutate and become cancerous. Melanoma is the most serious form of skin cancer and 5th most common cancer. 
 
@@ -34,7 +34,7 @@ The American Cancer Society estimates around 207,390 new melanoma cases will be 
 
 Currently, dermatologists evaluate every one of a patient's moles to identify outlier lesions that are most likely to be melanoma.
 
-## Dataset Overview <a name="data-overview"></a>
+## 📊 Dataset Overview <a name="data-overview"></a>
 
 The dataset was taken from the competition hosted by <a href = "https://www.kaggle.com/c/siim-isic-melanoma-classification/data">SIIM-ISIC</a> on Kaggle.
 
@@ -45,7 +45,7 @@ The dataset was taken from the competition hosted by <a href = "https://www.kagg
 - Malignant: A cancerous growth that can spread very quickly and invade nearby tissues
 - Benign: A non-cancerous growth that usually grows very slowly and does not spread to other areas
 
-## Model Building <a name="neural-network-model>
+## 🧠 Model Building <a name="neural-network-model">
 
 Here, the bottom layers of pre-trained Xception model were used and the top layers were fine-tuned for our particular task to classify skin cancer images as malignant or not. The architecture of xception model is as follows:
 
@@ -53,5 +53,15 @@ Here, the bottom layers of pre-trained Xception model were used and the top laye
     <img src="images\xception-architecture.png" alt="xception-architecture">
 </p>
 
-## Model Performance <a name="model-performance>
+## 🎯 Model Performance <a name="model-performance">
+
+Since the dataset is highly imbalanced, accuracy wouldn't be a good metric to judge the model performnace hence we have used the AOC as a performance metric along with BinaryCrossentropy as the loss function. Here is the model's performance.
+
+<p align="left">
+    <img src="images\live-loss-plot.png" alt="live-loss-plot">
+</p>
+
+<p align="left">
+    <img src="images\performance-results.png" alt="performance-result">
+</p>
 
